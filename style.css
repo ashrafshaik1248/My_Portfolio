@@ -51,7 +51,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #f18b3d;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -69,7 +69,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #f18b3d;
 }
 /* -----------about--------------- */
 #about{
@@ -81,6 +81,7 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 
 .about-col-1{
     flex-basis: 35%;
@@ -114,7 +115,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #f18b3d;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -130,7 +131,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #f18b3d;
     font-size: 14px;
 }
 .tab-contents{
@@ -175,7 +176,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #f18b3d;
     transform: translateY(-10px);
 }
 /* -------portfolio----------- */
@@ -204,7 +205,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #f18b3d);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -225,7 +226,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #f18b3d;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -245,7 +246,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #f18b3d;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -253,14 +254,14 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #f18b3d;
 }
 .btn111{
     display: block;
     margin: 10px auto;
     margin-right: 6px;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #f18b3d;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -268,7 +269,7 @@ nav ul li a:hover::after{
     transition: background 0.5s;
 }
 .btn111:hover{
-    background: #ff004f;
+    background: #f18b3d;
 }
 
 /* ---------contact-------- */
@@ -282,7 +283,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #f18b3d;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -298,12 +299,12 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #f18b3d;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #f18b3d;
 }
 .contact-right form{
     width: 100%;
@@ -334,10 +335,10 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #ff004f;
+    color: #f18b3d;
 }
 .copyright a{
-    color: #ff004f;
+    color: #f18b3d;
     text-decoration: none;
 }
 /* -----------------css for small screens--------- */
@@ -347,7 +348,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(user.png);
     }
     .header-text{
         margin-top: 100%;
@@ -361,7 +362,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: #f18b3d;
         position: fixed;
         top: 0;
         right: -200px;
@@ -432,9 +433,10 @@ nav .fas{
 }
 
 .first-letter {
-    color: #ff004f; /* First letter in red */
+    color: #f18b3d; /* First letter in red */
     font-size: 42px; /* Slightly larger for emphasis */
     font-weight: bold;
     text-transform: capitalize; /* Capitalizes the first letter */
 }
+
 
